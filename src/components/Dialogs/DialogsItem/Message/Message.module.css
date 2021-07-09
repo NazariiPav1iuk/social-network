@@ -1,0 +1,17 @@
+.message{
+    padding-left: 20px;
+}
+
+ .avatar{
+    height: 40px;
+    width: 40px;
+    border-radius:100%;
+    cursor: pointer;
+}
+
+.messageBox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}

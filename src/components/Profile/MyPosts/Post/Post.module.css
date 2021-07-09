@@ -1,0 +1,43 @@
+.post{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    background-color:#ebeff1;
+    border-radius: 10px;
+    padding: 15px 15px 15px 30px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius:100%;
+    margin: 20px;
+}
+
+.text{
+    width: 70%;
+}
+
+.like{
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.likeImg{
+    width: 18px;
+    height: 18px;
+    margin-top: -7px;
+    margin-left: 10px;
+}
+
+.like span{
+    font-weight: 700;
+}

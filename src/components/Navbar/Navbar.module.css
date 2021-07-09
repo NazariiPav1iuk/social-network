@@ -1,0 +1,28 @@
+.nav{
+    grid-area: nav;
+    display: block;
+    border-radius: 10px;
+    background-color: #A1C8DD;
+    padding: 20px;
+    height: max-content;
+}
+ 
+.item{
+    display: block;
+    color:#fff;
+    font-size: 20px;
+    padding: 5px 0 5px 20px;
+    border-radius:10px;
+    margin: 5px 0;
+}
+
+.item:hover{
+    background-color:#5da8c5;
+    transition: all .1 linear;
+    cursor: pointer;
+}
+
+.item.active{
+    background-color:#5da8c5;
+    font-weight: 700;
+}
