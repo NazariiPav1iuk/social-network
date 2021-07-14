@@ -2,13 +2,15 @@
     grid-area: hed;
     display: flex;
     align-items: center;
-    background-color:#A1C8DD;
+    background-color:#4379CD;
     border-radius: 10px;
 }
   
 .logo{
     width: 50px;
     height: 50px;
+    margin-left: 5px;
+
 }
 
 .logoName{
@@ -17,4 +19,5 @@
     text-transform: uppercase;
     color:#fff;
     margin-top: 2px;
+    padding: 0;
 }

@@ -11,7 +11,7 @@ const Post = (props) => {
                 <p className={s.text}>{props.message}</p>
                 <div className={s.like}> 
                     <span>{props.likeCount}</span>
-                    <img className={s.likeImg} src='https://icon-library.com/images/like-png-icon/like-png-icon-1.jpg' />
+                    <img className={s.likeImg} src='https://toppng.com/uploads/preview/like-heart-11551048696fib6y57o3r.png' />
                 </div>
             </div>   
         </div>

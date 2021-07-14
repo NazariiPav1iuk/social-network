@@ -10,6 +10,7 @@ body{
 
 a{
   text-decoration: none;
+  padding: 0;
 }
 
 .app-wrapper{
@@ -28,5 +29,5 @@ a{
 }
 
 .app-wrapper-content{
-    grid-area: con;
+  grid-area: con;
 }

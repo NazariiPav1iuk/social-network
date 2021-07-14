@@ -1,6 +1,7 @@
 .post{
     display: flex;
     align-items: center;
+    max-width: 700px;
     width: 100%;
 }
 
@@ -34,10 +35,11 @@
 .likeImg{
     width: 18px;
     height: 18px;
-    margin-top: -7px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-top: -3px;
 }
 
 .like span{
-    font-weight: 700;
+    font-weight: 400;
+    color: #000
 }

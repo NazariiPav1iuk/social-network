@@ -1,8 +1,9 @@
 .message{
     padding-left: 20px;
+    padding-right: 50px;
 }
 
- .avatar{
+.avatar{
     height: 40px;
     width: 40px;
     border-radius:100%;
@@ -14,4 +15,13 @@
     justify-content: flex-start;
     align-items: center;
     padding: 10px 10px 10px 10px;
+}
+
+.messageBox__right{
+    flex-direction: row-reverse;
+}
+
+.messageBox__right .message{
+    padding-left: 50px;
+    padding-right: 20px;
 }

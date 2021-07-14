@@ -1,0 +1,33 @@
+
+.user{
+    width: auto;
+    text-align: center;
+    height: 60px;
+}
+
+.userIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.userName{
+    font-size: 10px;
+    padding: 0;
+    color:#fff;
+}
+
+.user:hover .userIcon{
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 13px 0px rgba(34, 60, 80, 0.2);
+}
+.user:hover{
+    cursor: pointer;
+}
+
+.user:hover .userName{
+    font-size: 12px;
+    font-weight: 600;
+}

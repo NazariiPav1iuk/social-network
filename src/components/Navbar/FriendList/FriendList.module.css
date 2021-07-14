@@ -1,0 +1,13 @@
+.wrapper{
+    margin-top: 30px;
+}
+
+.tittle{
+    color:#fff;
+}
+
+.row{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
