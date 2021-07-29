@@ -1,4 +1,42 @@
+.content{
+    max-width: 700px;
+}
+
 .posts{
 
+}
 
+.addForm{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.tittle{
+    font-size: 28px;
+}
+
+.field{
+    background-color: #ebeff1;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 15px;
+    color: #000;
+    resize: none;
+}
+
+.button{
+    background-color:#4379CD;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: all .1s ease;
+    padding: 6px 25px;
+    margin-top: 10px;
+}
+
+.button:hover{
+    background-color:#1a56b6;
 }

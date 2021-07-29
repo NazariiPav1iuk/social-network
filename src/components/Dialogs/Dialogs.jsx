@@ -5,18 +5,21 @@ import Message from './DialogsItem/Message/Message'
 
 const Dialogs = (props) => {
     // add dialogs item on page
-    let dialogsElements = props.state.dialogs.map( d => <DialogsItem user={d.user} id={d.id} />);
+    let dialogsElements = props.dialogsPage.dialogs.map( d => <DialogsItem user={d.user} id={d.id} />);
     // add messages on page
-    let messagesElements = props.state.messages.map( m => <Message message={m.message} id={m.id} />);
+    let messagesElements = props.dialogsPage.messages.map( m => <Message message={m.message} id={m.id} />);
 
     // add new Message
     let newMessage = React.createRef();
 
     let sendMessage = () => {
         //take text from textarea 
-        let textMessage = newMessage.current.value;
-        props.sendMessage(textMessage);
-        newMessage.current.value = '';
+        props.sendMessage();
+    }
+
+    let onMessageChange = () => {
+        let messageText = newMessage.current.value;
+        props.updateNewMessageText(messageText);
     }
 
     return(
@@ -28,9 +31,12 @@ const Dialogs = (props) => {
                 <div className={s.messages}>
                    { messagesElements }
 
-                    <div>
-                        <textarea ref={ newMessage } cols="30" rows="10"></textarea>
-                        <button onClick ={ sendMessage }>send message</button>
+                    <div className={s.addMessageBlock} >
+                        <textarea className={s.messageField} ref={newMessage} onChange={onMessageChange}  value={props.dialogsPage.newMessageText} rows="2" />
+                        <button className={s.button} onClick ={ sendMessage }>
+                            send
+                            <span></span>
+                        </button>
                     </div>
 
                 </div>
