@@ -14,14 +14,14 @@
     padding: 10px 20px 0px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .addMessageBlock{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     margin-top: 30px;
+    flex: 1 1  auto;
 }
 
 .messageField{
@@ -47,7 +47,7 @@
     justify-content: center;
     cursor:pointer;
     transition: all .1s ease;
-    height: 45px;
+    height: 52px;
 }
 
 .button span{
